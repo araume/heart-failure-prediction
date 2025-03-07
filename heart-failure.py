@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Load dataset
-df = pd.read_csv('heart_failure_clinical_records_dataset.csv')
+df = pd.read_csv('_internal/heart_failure_clinical_records_dataset.csv')
 
 # Display basic information
 print("Dataset Preview:")
